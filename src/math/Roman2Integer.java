@@ -22,6 +22,9 @@ package math;
  * We could calculate if Roman[i-1]>=Roman[i] then sum+=Roman[i]
  * else sum+=Roman[i]-2*Roman[i-1]
  *
+ * time complexity=O(n)
+ * Notes:
+ * string needs to be converted to char by charAt or ToCharArray
  *
  */
 
