@@ -33,6 +33,9 @@ Notes for everyday updates.
     traverse the roman, if the former is smaller, we need to add , othereise, we need to add this number and substract
     2 times the former one.
 
+    LevelTraverse could use 2 queues to record current level nodes and values as well as the next level
+
+
   4.Coding&debugging issues
        switch()
        {
@@ -42,9 +45,19 @@ Notes for everyday updates.
             default: ;
 
        }
+
+       use correct "public static void main(String[] args)" to get the run option with right click
+
+
+       List is abstract interface . It has be implemented as ArrayList,stack,LinkedList,vector,stack
+
+       ArrayList<List<Integer>> travList = new ArrayList<List<Integer>>();
+       ArrayList<ArrayList<Integer>> is not a subset of List<List<Integer>>,instead ArrayList<List<Integer>> is.
   5.Problems
     Could not new class file in intellij. just right click to mark src directory as the source root.
     http://stackoverflow.com/questions/18852425/intellij-does-not-show-class-when-we-right-click-and-select-new
+
+    Think about using just one queue to do binary tree level order traverse.
 
   6.Rules
     Java naming rules
