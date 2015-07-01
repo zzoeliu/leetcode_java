@@ -11,6 +11,9 @@ Notes for everyday updates.
 
   check out projects from cvs control-> github using https url clone.
 
+  VCS->git ->commit file
+  VCS-> git-> push
+
   2.How to use Markdown labels to edit readme.md
     https://github.com/dushibaiyu/DsbyLiteExample/blob/master/Markdown/study.md
 
