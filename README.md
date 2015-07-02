@@ -19,6 +19,7 @@
     4.Same Tree
     5.Implement strStr()
     6.Number of 1 Bits
+    7.Excel Sheet Column Title
     7.Excel Sheet Column Number
     8.Summary Ranges
     9.Isomorphic Strings

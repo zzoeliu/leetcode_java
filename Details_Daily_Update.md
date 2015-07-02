@@ -35,6 +35,7 @@ Notes for everyday updates.
 
     LevelTraverse could use 2 queues to record current level nodes and values as well as the next level
 
+    HashSet vs HashTable vs HashMap: differences,interfaces provided and different usage.
 
   4.Coding&debugging issues
        switch()
@@ -69,6 +70,7 @@ Notes for everyday updates.
         const use capital letters for all words
 07/02/2015
 --------------
-
-
+   1.Coding&debugging issues
+    Sometimes packages fail to be imported from another directory. You need to build the original class to module
+    firstly, then do compilation and run.
 
