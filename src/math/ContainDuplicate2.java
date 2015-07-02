@@ -34,7 +34,7 @@ public class ContainDuplicate2 {
                 int gap=i-index;
                 min=Math.min(min,gap);
             }
-            countHash.put(nums[i],i);
+            countHash.put(nums[i],i);//replace previous value with same key.
         }
 
         if(min<=k)

@@ -67,7 +67,8 @@ Notes for everyday updates.
         methods use lower case
         variables initiates with lower case but capital letters as the initial letter for following words
         const use capital letters for all words
-
+07/02/2015
+--------------
 
 
 
