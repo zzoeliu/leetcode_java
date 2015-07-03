@@ -12,7 +12,6 @@
 
 07/02/2015
 -------------
-    Summarize and implement all sort algorithms
     1.Valid Parentheses
     2.Maximum Depth of Binary Tree
     3.Valid Palindrome
@@ -27,6 +26,7 @@
 
 07/03/2015
 -------------
+    Summarize and implement all sort algorithms
     1.Merge Sorted Array
     2.ZigZag Conversion
     3.Valid Sudoku
