@@ -22,16 +22,19 @@ package string;
  Design: Use hash map to store <s,t> pair
  we should judge by char at certain position ,not by position of certain value
  */
-public class IsomorphicStrings {
-    HashMap<Character,Character> map = new HashMap<>();
-    for (int i=0; i<s.length(); i++){
-        if (map.containsKey(s.charAt(i))){//Returns true if this map maps one or more keys to the specified value.
-            if (t.charAt(i)==map.get(s.charAt(i))) continue;
-            else return false;
-        }
-        else if (map.containsValue(t.charAt(i))) return false;
-        map.put(s.charAt(i),t.charAt(i));//s is key, t is value
-    }
-    return true;
+import java.util.HashMap;
 
+public class IsomorphicStrings {
+    public boolean isIsomorphic(String s, String t) {
+        HashMap<Character, Character> map = new HashMap<Character, Character>();
+        for (int i = 0; i < s.length(); i++) {
+            if (map.containsKey(s.charAt(i))) {//Returns true if this map maps one or more keys to the specified value.
+                if (t.charAt(i) == map.get(s.charAt(i))) continue;
+                else return false;
+            } else if (map.containsValue(t.charAt(i))) return false;
+            map.put(s.charAt(i), t.charAt(i));//s is key, t is value
+        }
+        return true;
+
+    }
 }
