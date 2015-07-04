@@ -76,3 +76,18 @@ Notes for everyday updates.
    2.Knowledge
     String vs StringBuffer vs StringBuilder
 
+07/04/2015
+---------------
+    Pre-order, in-order and post-order traversal are the three different kinds of depth first search that are possible.
+    So it's not a question of whether to use DFS or one of those three. If you are using one of those three traversals,
+    you are using DFS.
+
+    As for whether there are cases where BFS is preferable over DFS: Yes, there are. For example to find the shortest
+    path between two nodes in an unweighted graph, you can use BFS because the first path found by a BFS happens to be
+    the one with the fewest edges. The same is not true for DFS.
+
+    For List element remove, we need a listnode to track the nodes of list, pre.next=head, then we also need another
+    node cur=pre to move forward,at last we need to return the new list pre.next.
+
+    ReverseBits, ReverseInteger etc. you need to consider the numbers exceed MIN_VALUE and MAX_VALUE, use double to hold
+    the original number then do a check and return proper result.

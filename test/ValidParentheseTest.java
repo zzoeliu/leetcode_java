@@ -1,4 +1,8 @@
 //import math.CountPrime;
+import math.HapplyNumber;
+import math.RectangleArea;
+import math.ReverseInteger;
+import stack.MinStack;
 import string.StringToInteger;
 import string.ZigzagConv;
 //import stack.ValidParentheses;
@@ -34,10 +38,22 @@ public class ValidParentheseTest {
         //output=test.convert(input,3);
         //System.out.println(output);
 
-        StringToInteger testClass=new StringToInteger();
-        String test="2147483648";
-        int num=testClass.myAtoi(test);
-        System.out.println(num);
+//        StringToInteger testClass=new StringToInteger();
+  //      String test="2147483648";
+    //    int num=testClass.myAtoi(test);
+      //  System.out.println(num);
+       // MinStack test=new MinStack();
+        //test.push(-3);
+        //int min=test.getMin();
+        //System.out.println(min);
+        //RectangleArea test=new RectangleArea();
+        //int area=test.computeArea(-2, -2, 2, 2, 3, 3, 4, 4);
+        //System.out.println(area);
 
+        //HapplyNumber test=new HapplyNumber();
+
+        //test.isHappy(19);
+        ReverseInteger test=new ReverseInteger();
+        test.reverse(2147483412);
     }
 }
