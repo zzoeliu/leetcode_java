@@ -73,4 +73,6 @@ Notes for everyday updates.
    1.Coding&debugging issues
     Sometimes packages fail to be imported from another directory. You need to build the original class to module
     firstly, then do compilation and run.
+   2.Knowledge
+    String vs StringBuffer vs StringBuilder
 

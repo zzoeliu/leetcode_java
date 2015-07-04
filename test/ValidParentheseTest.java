@@ -1,4 +1,6 @@
-import math.CountPrime;
+//import math.CountPrime;
+import string.StringToInteger;
+import string.ZigzagConv;
 //import stack.ValidParentheses;
 //import string.IsomorphicStrings;
 
@@ -24,8 +26,18 @@ public class ValidParentheseTest {
         String s="aa";
         String t="ab";
         System.out.println(test.isIsomorphic(s,t));*/
-        CountPrime test=new CountPrime();
-        int count=test.countPrimes(5);
+        //CountPrime test=new CountPrime();
+        //int count=test.countPrimes(5);
+        //ZigzagConv test=new ZigzagConv();
+        //String input="ABCD";
+        //String output=new String();
+        //output=test.convert(input,3);
+        //System.out.println(output);
+
+        StringToInteger testClass=new StringToInteger();
+        String test="2147483648";
+        int num=testClass.myAtoi(test);
+        System.out.println(num);
 
     }
 }
