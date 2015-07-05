@@ -10,7 +10,8 @@ package array;
  Try to come up as many solutions as you can, there are at least 3 different ways to solve this problem.
 
  first:use naive method, create temp array to copy , note that if k>n, we need k=k%n
- second:
+ second:Bubble rotate
+ third:Reversal(divide into two groups, rotate them seperately,then retate the whole array)
  */
 public class RotateArray {
     public void rotate(int[] nums, int k) {

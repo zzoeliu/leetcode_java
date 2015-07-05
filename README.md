@@ -40,8 +40,6 @@
 
 07/04/2015
 ---------------
-    Summarize and implement all sort algorithms
-    Tree traverse: DFS,BFS,LFS
     1.Min Stack
     2.Invert Binary Tree
     3.Rectangle Area
@@ -53,10 +51,13 @@
     9.Rotate Array
     10.Reverse Linked List
     11.Reverse Integer   overflow problem 1534236469
+    12.Majority Element
 
 07/05/2015
 ------------------
-    1.Majority Element
+    Summarize and implement all sort algorithms
+    Tree traverse: DFS,BFS,LFS
+
     2.Compare Version Numbers
     3.Intersection of Two Linked Lists
     4.Palindrome Number

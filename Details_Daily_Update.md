@@ -91,3 +91,11 @@ Notes for everyday updates.
 
     ReverseBits, ReverseInteger etc. you need to consider the numbers exceed MIN_VALUE and MAX_VALUE, use double to hold
     the original number then do a check and return proper result.
+
+    HashMap traverse:(keyset traverse)
+    Iterator<Integer> iter=container.keySet().iterator();
+            while(iter.hasNext())
+            {
+                int key=iter.next();
+                int value=container.get(key);
+                }
