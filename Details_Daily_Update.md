@@ -99,3 +99,9 @@ Notes for everyday updates.
                 int key=iter.next();
                 int value=container.get(key);
                 }
+
+07/05/2015
+--------------------------
+    java escape character \\.（165	Compare Version Numbers）
+    n & (n-1) will turn off the rightmost bit of a integer. used to solve poweroftwo
+    (see http://www.catonmat.net/blog/low-level-bit-hacks-you-absolutely-must-know/)??????

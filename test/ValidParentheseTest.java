@@ -1,8 +1,11 @@
 //import math.CountPrime;
+import array.PascalTriangle;
 import math.HapplyNumber;
 import math.RectangleArea;
 import math.ReverseInteger;
 import stack.MinStack;
+import string.CompareVersionNumbers;
+import string.LongestCommonPrefix;
 import string.StringToInteger;
 import string.ZigzagConv;
 //import stack.ValidParentheses;
@@ -53,7 +56,17 @@ public class ValidParentheseTest {
         //HapplyNumber test=new HapplyNumber();
 
         //test.isHappy(19);
-        ReverseInteger test=new ReverseInteger();
-        test.reverse(2147483412);
+        //ReverseInteger test=new ReverseInteger();
+        //test.reverse(2147483412);
+        //CompareVersionNumbers test=new CompareVersionNumbers();
+        //String a="1";
+        //String b="0";
+        //test.compareVersion(a,b);
+        //LongestCommonPrefix test=new LongestCommonPrefix();
+        //String[] testString={"a"};
+       //String result = test.longestCommonPrefix(testString);
+        PascalTriangle test=new PascalTriangle();
+        test.generate(1);
+
     }
 }

@@ -58,19 +58,20 @@
     Summarize and implement all sort algorithms
     Tree traverse: DFS,BFS,LFS
 
-    2.Compare Version Numbers
-    3.Intersection of Two Linked Lists
-    4.Palindrome Number
-    5.Longest Common Prefix
-    6.Remove Nth Node From End of List
-    7.Merge Two Sorted Lists
-    8.Pascal's Triangle II
-    9.Pascal's Triangle
-    10.Remove Element
-    11.Path Sum
-    12.Minimum Depth of Binary Tree
-    13.Remove Duplicates from Sorted List
-    14.Count and Say
-    15.Climbing Stairs
-    16.Plus One
-    17.Length of Last Word
+    1.Compare Version Numbers
+    2.Intersection of Two Linked Lists
+    3.Palindrome Number
+    4.Longest Common Prefix
+    5.Remove Nth Node From End of List
+    6.Merge Two Sorted Lists
+    7.Pascal's Triangle II
+    8.Pascal's Triangle
+    9.Remove Element
+    10.Path Sum
+    11.Minimum Depth of Binary Tree
+    12.Remove Duplicates from Sorted List
+    13.Count and Say
+    14.Climbing Stairs
+    15.Plus One
+    16.Length of Last Word
+    17.Power of Two
