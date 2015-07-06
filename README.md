@@ -55,8 +55,6 @@
 
 07/05/2015
 ------------------
-    Summarize and implement all sort algorithms
-    Tree traverse: DFS,BFS,LFS
 
     1.Compare Version Numbers
     2.Intersection of Two Linked Lists
@@ -78,3 +76,15 @@
 
 
     easy completed.
+
+07/05/2015
+------------------
+    Summarize and implement all sort algorithms
+    Tree traverse: DFS,BFS,LFS
+
+    1.Course Schedule
+    2.Implement Stack using Queues
+    3.Container With Most Water
+    4.Basic Calculator
+    5.Two Sum
+    6.Integer to Roman
