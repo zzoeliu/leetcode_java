@@ -105,3 +105,7 @@ Notes for everyday updates.
     java escape character \\.（165	Compare Version Numbers）
     n & (n-1) will turn off the rightmost bit of a integer. used to solve poweroftwo
     (see http://www.catonmat.net/blog/low-level-bit-hacks-you-absolutely-must-know/)??????
+
+    minDepthOfTree,跟Maximum Depth of Binary Tree非常类似，只是这道题因为是判断最小深度，所以必须增加一个叶子的判断
+    （因为如果一个节点如果只有左子树或者右子树，我们不能取它左右子树中小的作为深度，因为那样会是0，我们只有在叶子节点才能判断深度，
+    而在求最大深度的时候，因为一定会取大的那个，所以不会有这个问题）。所以比Maximum Depth of Binary Tree多加一个左右子树的判断

@@ -1,13 +1,11 @@
 //import math.CountPrime;
 import array.PascalTriangle;
 import math.HapplyNumber;
+import math.PlusOne;
 import math.RectangleArea;
 import math.ReverseInteger;
 import stack.MinStack;
-import string.CompareVersionNumbers;
-import string.LongestCommonPrefix;
-import string.StringToInteger;
-import string.ZigzagConv;
+import string.*;
 //import stack.ValidParentheses;
 //import string.IsomorphicStrings;
 
@@ -65,8 +63,14 @@ public class ValidParentheseTest {
         //LongestCommonPrefix test=new LongestCommonPrefix();
         //String[] testString={"a"};
        //String result = test.longestCommonPrefix(testString);
-        PascalTriangle test=new PascalTriangle();
-        test.generate(1);
+        //PascalTriangle test=new PascalTriangle();
+       // test.generate(1);
+ //       CountAndSay test=new CountAndSay();
+ //       int n=10;
+ //       test.countAndSay(n);
+        PlusOne test=new PlusOne();
+        int[] r={0};
+        test.plusOne(r);
 
     }
 }
