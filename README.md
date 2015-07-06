@@ -75,3 +75,6 @@
     15.Plus One
     16.Length of Last Word
     17.Power of Two
+
+
+    easy completed.
