@@ -109,3 +109,11 @@ Notes for everyday updates.
     minDepthOfTree,跟Maximum Depth of Binary Tree非常类似，只是这道题因为是判断最小深度，所以必须增加一个叶子的判断
     （因为如果一个节点如果只有左子树或者右子树，我们不能取它左右子树中小的作为深度，因为那样会是0，我们只有在叶子节点才能判断深度，
     而在求最大深度的时候，因为一定会取大的那个，所以不会有这个问题）。所以比Maximum Depth of Binary Tree多加一个左右子树的判断
+
+07/06/2015
+---------------------------
+    For graph, we could also do BFS and DFS traverse(Course Schedule) to check circle.
+    Course schedule BFS(Calculate the no pre course list),DFS caculate the courses list which follow certain course
+    MaxArea problem, we need to decide the left line and right line at the same time. So we begin at point(0) and
+    point(n-1),keep tracking the maxarea.It's the same as largest histogram problem
+    Calculator needs stack.

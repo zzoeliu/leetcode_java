@@ -1,6 +1,6 @@
 # leetcode_java
 	prepare for jobhunting. java version of Leetcode.
-	easy 54 about takes 5 days
+	easy 55 about takes 5 days
 	medium 112 about takes 20 days
 	hard 48 about take 10 days
 07/01/2015
@@ -83,8 +83,17 @@
     Tree traverse: DFS,BFS,LFS
 
     1.Course Schedule
-    2.Implement Stack using Queues
+    2.Course Schedule II
     3.Container With Most Water
-    4.Basic Calculator
+    4.Integer to Roman
     5.Two Sum
-    6.Integer to Roman
+    6.N-Queens
+
+07/06/2015
+------------------
+    1.Find Minimum in Rotated Sorted Array
+    2.Maximum Product Subarray
+    3.Reverse Words in a String
+    4.Evaluate Reverse Polish Notation
+    5.Permutations
+    6.Permutations II

@@ -1,15 +1,8 @@
 //import math.CountPrime;
-import array.PascalTriangle;
-import math.HapplyNumber;
-import math.PlusOne;
-import math.RectangleArea;
-import math.ReverseInteger;
-import stack.MinStack;
-import string.*;
+import graph.CourseSchedule;
 //import stack.ValidParentheses;
 //import string.IsomorphicStrings;
 
-import java.util.concurrent.CountDownLatch;
 
 /**
  * Created by ZoeLiu on 7/2/15.
@@ -68,9 +61,12 @@ public class ValidParentheseTest {
  //       CountAndSay test=new CountAndSay();
  //       int n=10;
  //       test.countAndSay(n);
-        PlusOne test=new PlusOne();
-        int[] r={0};
-        test.plusOne(r);
+        //PlusOne test=new PlusOne();
+       // int[] r={0};
+        //test.plusOne(r);
+        CourseSchedule test=new CourseSchedule();
+        int[][] pre={{1,0}};
+        test.canFinish(2,pre);
 
     }
 }
