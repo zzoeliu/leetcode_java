@@ -117,3 +117,7 @@ Notes for everyday updates.
     MaxArea problem, we need to decide the left line and right line at the same time. So we begin at point(0) and
     point(n-1),keep tracking the maxarea.It's the same as largest histogram problem
     Calculator needs stack.
+07/07/2015
+---------------------------
+    Permutation problem, insert the nth number into the result of (n-1). It has n position to insert for each result
+    of n-1.

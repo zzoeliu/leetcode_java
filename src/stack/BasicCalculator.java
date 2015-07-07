@@ -16,10 +16,10 @@ import java.util.Stack;
  "(1+(4+5+2)-3)+(6+8)" = 23
  Note: Do not use the eval built-in library function.
  */
-public class BasicCalculator {
+//public class BasicCalculator {
 
-    public int calculate(String s)
-    {
-        int length=s.length();
-    }
-}
+  //  public int calculate(String s)
+   // {
+    //    int length=s.length();
+   // }
+//}

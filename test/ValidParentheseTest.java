@@ -1,5 +1,8 @@
 //import math.CountPrime;
+import array.FindMinimumInRotatedSortedArray;
+import array.MaxProductSubarray;
 import graph.CourseSchedule;
+import stack.EvaluateReversePolishNotation;
 //import stack.ValidParentheses;
 //import string.IsomorphicStrings;
 
@@ -64,9 +67,18 @@ public class ValidParentheseTest {
         //PlusOne test=new PlusOne();
        // int[] r={0};
         //test.plusOne(r);
-        CourseSchedule test=new CourseSchedule();
-        int[][] pre={{1,0}};
-        test.canFinish(2,pre);
+//        CourseSchedule test=new CourseSchedule();
+//        int[][] pre={{1,0}};
+//        test.canFinish(2,pre);
+//        FindMinimumInRotatedSortedArray test=new FindMinimumInRotatedSortedArray();
+//        int[] nums={1,2};
+//        test.findMin(nums);
+//        MaxProductSubarray test=new MaxProductSubarray();
+//        int[] nums={-4,-3};
+//        test.maxProduct(nums);
+        EvaluateReversePolishNotation test=new EvaluateReversePolishNotation();
+        String[] tokens={"0","3","/"};
+        System.out.println(test.evalRPN(tokens));
 
     }
 }

@@ -77,7 +77,7 @@
 
     easy completed.
 
-07/05/2015
+07/06/2015
 ------------------
     Summarize and implement all sort algorithms
     Tree traverse: DFS,BFS,LFS
@@ -87,9 +87,9 @@
     3.Container With Most Water
     4.Integer to Roman
     5.Two Sum
-    6.N-Queens
 
-07/06/2015
+
+07/07/2015
 ------------------
     1.Find Minimum in Rotated Sorted Array
     2.Maximum Product Subarray
@@ -97,3 +97,15 @@
     4.Evaluate Reverse Polish Notation
     5.Permutations
     6.Permutations II
+    7.N-Queens
+
+07/08/2015
+------------------
+    Summarize and implement all sort algorithms
+    Tree traverse: DFS,BFS,LFS
+    1.Convert Sorted List to Binary Search Tree
+    2.Majority Element II
+    3.Number of Digit One
+    4.Count Complete Tree Nodes
+    5.Sort List
+    6.Merge Intervals
