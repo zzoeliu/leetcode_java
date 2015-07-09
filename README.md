@@ -97,7 +97,6 @@
     4.Evaluate Reverse Polish Notation
     5.Permutations
     6.Permutations II
-    7.N-Queens
 
 07/08/2015
 ------------------
@@ -107,5 +106,14 @@
     2.Majority Element II
     3.Number of Digit One
     4.Count Complete Tree Nodes
-    5.Sort List
+    5.Sort List(merge sort in O(nlgn))
     6.Merge Intervals
+
+07/09/2015
+------------------
+    1.Insertion Sort List
+    2.Maximal Square
+    3.3Sum
+    4.Binary Tree Preorder Traversal
+    5.Reorder List
+    6.N-Queens

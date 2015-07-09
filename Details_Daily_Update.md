@@ -121,3 +121,40 @@ Notes for everyday updates.
 ---------------------------
     Permutation problem, insert the nth number into the result of (n-1). It has n position to insert for each result
     of n-1.
+07/08/2015
+---------------------------
+     Binary Seach Tree(Ordered tree) : all left nodes smaller than root smaller than right subtree.
+     Boyer-Moore Majority Vote(https://leetcode.com/discuss/43248/boyer-moore-majority-vote-algorithm-and-my-elaboration):
+     The core thought: if we want to find n/k majority number, it should be show up at least once in every k numbers.(we
+     need to check the majority number twice, the first time is to pick up majority elements, the second time should check
+     if they really show up more than n/k times )
+     caculate all 1s in less than or equal to n(http://blog.csdn.net/xudli/article/details/46798619)
+     (a + 8) / 10 * m + (a % 10 == 1) * (b + 1);
+
+     Caculate nodes of complete binary tree:
+     1) get the height of left-most part(note here we need to calculate including the root node)
+     2) get the height of right-most part
+     3) when they are equal, the # of nodes = 2^h -1
+     4) when they are not equal, recursively get # of nodes from left&right sub-trees
+
+     Collections.sort(http://blog.csdn.net/janronehoo/article/details/8746447
+     https://docs.oracle.com/javase/tutorial/collections/interfaces/order.html)
+     We need to define a comparator before we use Collections.sort
+     class IntervalComparator implements Comparator<Interval>
+     	public int compare(Interval i1, Interval i2)
+     	Classes Implementing Comparable
+        Class	Natural Ordering
+        Byte	Signed numerical
+        Character	Unsigned numerical
+        Long	Signed numerical
+        Integer	Signed numerical
+        Short	Signed numerical
+        Double	Signed numerical
+        Float	Signed numerical
+        BigInteger	Signed numerical
+        BigDecimal	Signed numerical
+        Boolean	Boolean.FALSE < Boolean.TRUE
+        File	System-dependent lexicographic on path name
+        String	Lexicographic
+        Date	Chronological
+        CollationKey	Locale-specific lexicographic
