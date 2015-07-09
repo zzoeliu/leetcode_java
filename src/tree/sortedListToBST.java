@@ -4,7 +4,7 @@ package tree;
 /**
  * Created by ZoeLiu on 7/8/15.
  */
-import linklist.ListNode;
+//import linklist.ListNode;
 
 import java.util.ArrayList;
 
