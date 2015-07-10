@@ -113,6 +113,9 @@
 ------------------
     1.Insertion Sort List
     2.Maximal Square
+
+07/10/2015
+------------------
     3.3Sum
     4.Binary Tree Preorder Traversal
     5.Reorder List
