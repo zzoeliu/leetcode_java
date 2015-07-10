@@ -158,3 +158,21 @@ Notes for everyday updates.
         String	Lexicographic
         Date	Chronological
         CollationKey	Locale-specific lexicographic
+
+07/10/2015
+---------------------------
+      k-sum problem(http://blog.csdn.net/whuwangyi/article/details/14104589)
+      length of arraylist,hashset,hashmap,int[][],String
+      preorder tree traverse : The key to solve this problem is using a stack(Stack<TreeNode> stack
+      ) to store left and right children, and push right child first so that it is processed after the left child.
+      Reverse list order(This problem can be solved by doing the following:
+
+                         Break list in the middle to two lists (use fast & slow pointers)
+                         Reverse the order of the second list
+                         Merge two list back together)
+                         http://www.programcreek.com/2013/12/in-place-reorder-a-singly-linked-list-in-java/
+
+       After we divide list into two lists, we should use null to end up the first half list.
+       How to decide the start point of a cycle list?
+       We need two times traverse. The first time is to locate the meeting point. The second time we need to traverse from
+       the meeting point and head seperately, at last the second meeting point is what we want.

@@ -116,7 +116,10 @@
 
 07/10/2015
 ------------------
+    1.Linked List Cycle
+    2.Linked List Cycle II
     3.3Sum
     4.Binary Tree Preorder Traversal
     5.Reorder List
-    6.N-Queens
+    6.Jump Game
+    7.N-Queens
