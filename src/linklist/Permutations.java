@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by ZoeLiu on 7/7/15.
  */
-public class Permutations {
+/*public class Permutations {
     public ArrayList<ArrayList<Integer>> permute(int[] nums)
     {
         ArrayList<ArrayList<Integer>> result=new ArrayList<ArrayList<Integer>>();
@@ -31,4 +31,4 @@ public class Permutations {
     }
 
 
-}
+}*/

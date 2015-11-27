@@ -7,7 +7,7 @@ import java.util.ArrayList;
 /**
  * Created by ZoeLiu on 7/7/15.Similar with Permutation, just use hashset for uniqueness.
  */
-public class PermutationII {
+/*public class PermutationII {
     public ArrayList<List<Integer>> permuteUnique(int[] nums) {
 
         ArrayList<List<Integer>> result=new ArrayList<List<Integer>>();
@@ -34,4 +34,4 @@ public class PermutationII {
 
         return result;
     }
-}
+}*/

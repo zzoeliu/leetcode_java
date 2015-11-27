@@ -1,5 +1,7 @@
 package string;
 
+import java.util.Queue;
+
 /**
  * Created by ZoeLiu on 7/5/15.
  * The count-and-say sequence is the sequence of integers beginning as follows:
@@ -16,12 +18,15 @@ public class CountAndSay {
     public String countAndSay(int n)
     {
         StringBuffer result=new StringBuffer();
+
+
         if(n<10)
         {
             result.append(Integer.toString(1));
             result.append(Integer.toString(n));
             return result.toString();
         }
+
         String number=Integer.toString(n);
         int i=0;
         while(i<number.length())
